@@ -29,12 +29,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     public CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration configuration = new CorsConfiguration();
         configuration.setAllowedOrigins(Arrays.asList(
-            "http://shopping-platform.us-east-2.elasticbeanstalk.com",
-            "https://shopping-platform.us-east-2.elasticbeanstalk.com",
-            "http://www.shopping-platform.site",
-            "https://www.shopping-platform.site",
-            "http://shopping-platform.site",
-            "https://shopping-platform.site",
+            "https://ai-powered-shopping-plaftform.vercel.app",
             "http://localhost:4200",
             "https://localhost:4200",
             "http://localhost:3000",
